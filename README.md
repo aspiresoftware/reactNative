@@ -6,15 +6,15 @@ A way to share application logic between a React Web app, React Desktop app and 
 ->react-native-web with webpack is used for building web specific app
 ->electron with webpack is used for building desktop specific app
 
-Directory structure:
+# Directory structure:
 
 android houses the Android project files, ios houses the ios project files, desktop houses the main.js and index.html also minified bundle.js  needed for the electron, and web houses the webpack configs and index.html minified bundle.js.
 
-Entry point:
+# Entry point:
 
 The entry point for the ios and android app is index.js, and for the web and desktop app is index.web.js.
 
-Environment setup:
+# Environment setup:
 
 1> install node
 2> install yarn (optional - for me yarn worked well, you can go with npm also)
@@ -28,7 +28,7 @@ clode or download zip
 
 Go to the root folder of the project, and run command yarn install or npm install. After installing whole lot of things you can run your application.
 
-Running the application
+# Running the application
 
 scripts are defined in package.json file for each specific file
 just run in terminal
