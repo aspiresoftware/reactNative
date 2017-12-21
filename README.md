@@ -41,7 +41,9 @@ scripts are defined in package.json file for each specific file
 just run in terminal
 
 ### For android
-`yarn run run-android`
+`yarn run run-android` or `react-native run-android`
+
+- [generating build release for android](https://facebook.github.io/react-native/docs/signed-apk-android.html)
 
 ### For ios
 `yarn run run-ios`
@@ -71,6 +73,29 @@ just run in terminal
 
 ### Desktop
 ![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/desktop.png)
+
+
+## Generate splash screen and icon for android
+
+- get splash screen and icons from [React Native](https://apetools.webprofusion.com/app/#/tools/imagegorilla)
+- First copy and paste the following directories from the Android directory from Image Gorilla to the android/app/src/main/res directory.
+```
+drawable-hdpi
+drawable-mdpi
+drawable-xhdpi
+drawable-xxhdpi
+```
+
+- Open the project in Android Studio and in the android/app/src/main/res create a drawable directory, then create a new “Drawable resource file”. Name that file background_splash and edit as given below.
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/1.png)
+- Edit android/app/res/values/styles.xml as given below
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/2.png)
+- Edit AndroidManifest.xml as given below
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/3.png)
+- Create new java file and edit as given below
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/4.png)
+
+Now run your application with your desired icon and splash screen.
 
 
 ## For more information and help visit
