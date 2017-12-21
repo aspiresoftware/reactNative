@@ -61,8 +61,7 @@ just run in terminal
 ## Screen shots
 
 ### Android
-![alt android image not found]
-(https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/android.png)
+![alt android image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/android.png)
 
 ### IOS
 ![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/ios.png)
@@ -76,8 +75,8 @@ just run in terminal
 
 ## For more information and help visit
 
-[React Native](https://facebook.github.io/react-native/)
-[React Native Web](https://github.com/necolas/react-native-web)
-[React Native Troubleshooting](https://facebook.github.io/react-native/docs/troubleshooting.html)
-[Electron](https://electronjs.org/)
-[Electron Packeger](https://www.npmjs.com/package/electron-packager)
+- [React Native](https://facebook.github.io/react-native/)
+- [React Native Web](https://github.com/necolas/react-native-web)
+- [React Native Troubleshooting](https://facebook.github.io/react-native/docs/troubleshooting.html)
+- [Electron](https://electronjs.org/)
+- [Electron Packeger](https://www.npmjs.com/package/electron-packager)
