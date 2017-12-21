@@ -9,9 +9,9 @@ import {
   StyleSheet,
   Text,
   TextInput,
-  Button,
+  Alert,
   View,
-  Image
+  Platform
 } from 'react-native';
 import {
   AppRegistry
@@ -27,30 +27,30 @@ export default class App extends Component {
   
       state = {
           username: '',
-          message: ''
       }
 
   _handlePress() {
-    this.setState({ message: this.state.username });
+    if (Platform.OS === 'ios' || Platform.OS === 'android') {
+      Alert.alert(
+         'Welcome.......',
+         this.state.username
+      )
+    } else {
+      alert('Welcome.......'+this.state.username);
+    }
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Image
-          source={require('../../assets/react-native-web.png')}
-          style={styles.logo}
-        />
-				<TextInput
+      <Text style={styles.heading}>
+        Enter some text in input field below and then click the button.
+      </Text>
+				<TextInput style={styles.input}
 					placeholder='Username' 
 					onChangeText={(username) => this.setState({username})}
 					autoFocus={true}
 				/>
-        {!!this.state.message && (
-          <Text>
-          {this.state.message}
-          </Text>
-        )}
         <Touchable
           onPress={this._handlePress}
           style={styles.touchable}>
@@ -70,19 +70,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF'
   },
-  logo: {
-    alignSelf: 'center',
-    marginBottom: 10
-  },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10
   },
-  instructions: {
+  heading: {
     textAlign: 'center',
     color: '#333333',
-    marginBottom: 5
+    marginBottom: 10,
+    fontSize: 20,
+  },
+  input: {
+    width: 200
   },
   touchable: {
     backgroundColor: '#CAE6FE'
