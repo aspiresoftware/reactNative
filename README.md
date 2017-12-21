@@ -55,22 +55,22 @@ yarn run pack-mac -> to get ditributable package for mac
 ## Screen shots
 
 ### Android
-![alt android image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/android.png)
+![alt android image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/android.png?raw=true)
 
 ### IOS
-![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/ios.png)
+![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/ios.png?raw=true)
 
 ### Web
-![alt web image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/web.png)
+![alt web image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/web.png?raw=true)
 
 ### Desktop
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/desktop.png)
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/desktop.png?raw=true)
 
 
 ## For more information and help visit
 
-![alt React Native](https://facebook.github.io/react-native/)
-![alt React Native Web](https://github.com/necolas/react-native-web)
-![alt React Native Troubleshooting](https://facebook.github.io/react-native/docs/troubleshooting.html)
-![alt Electron](https://electronjs.org/)
-![alt Electron Packeger](https://www.npmjs.com/package/electron-packager)
+[a link](https://facebook.github.io/react-native/)
+[a link](https://github.com/necolas/react-native-web)
+[a link](https://facebook.github.io/react-native/docs/troubleshooting.html)
+[a link](https://electronjs.org/)
+[a link](https://www.npmjs.com/package/electron-packager)
