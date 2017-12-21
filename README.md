@@ -27,50 +27,57 @@ The entry point for the ios and android app is index.js, and for the web and des
 
 ### clone or download zip
 
-Go to the root folder of the project, and run command yarn install or npm install. After installing whole lot of things you can run your application.
+```
+git clone https://github.com/aspiresoftware/reactNative.git projectname
+cd projectname
+yarn or npm install
+```
 
-update local.properties inside your android folder with your sdk path
+After installing whole lot of things you can run your application.
+
+update local.properties inside your android folder with your sdk path (if needed)
 
 scripts are defined in package.json file for each specific file
 just run in terminal
 
 ### For android
-yarn run run-android
+`yarn run run-android`
 
 ### For ios
-yarn run run-ios
+`yarn run run-ios`
 
 ### For web
-yarn run run-web
-yar run prod-web --> for production build
+- `yarn run run-web` your app is accessible at `http://localhost:3000`
+- `yarn run prod-web` --> for production build
 
 ### For desktop
-yarn run run-desktop (Linux, windows, and mac os)
+`yarn run run-desktop` (Linux, windows, and mac os)
 
 ### Building distributable package for desktop
-yarn run pack-linux -> to get ditributable package for linux
-yarn run pack-windows -> to get ditributable package for windows
-yarn run pack-mac -> to get ditributable package for mac
+- `yarn run pack-linux` -> to get ditributable package for linux
+- `yarn run pack-windows` -> to get ditributable package for windows
+- `yarn run pack-mac` -> to get ditributable package for mac
 
 ## Screen shots
 
 ### Android
-![alt android image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/android.png?raw=true)
+![alt android image not found]
+(https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/android.png)
 
 ### IOS
-![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/ios.png?raw=true)
+![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/ios.png)
 
 ### Web
-![alt web image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/web.png?raw=true)
+![alt web image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/web.png)
 
 ### Desktop
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeImg/desktop.png?raw=true)
+![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/desktop.png)
 
 
 ## For more information and help visit
 
-[a link](https://facebook.github.io/react-native/)
-[a link](https://github.com/necolas/react-native-web)
-[a link](https://facebook.github.io/react-native/docs/troubleshooting.html)
-[a link](https://electronjs.org/)
-[a link](https://www.npmjs.com/package/electron-packager)
+[React Native](https://facebook.github.io/react-native/)
+[React Native Web](https://github.com/necolas/react-native-web)
+[React Native Troubleshooting](https://facebook.github.io/react-native/docs/troubleshooting.html)
+[Electron](https://electronjs.org/)
+[Electron Packeger](https://www.npmjs.com/package/electron-packager)
