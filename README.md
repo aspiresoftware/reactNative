@@ -48,6 +48,8 @@ just run in terminal
 ### For ios
 `yarn run run-ios`
 
+- [generating build release for ios](https://facebook.github.io/react-native/docs/running-on-device.html)
+
 ### For web
 - `yarn run run-web` your app is accessible at `http://localhost:3000`
 - `yarn run prod-web` --> for production build
@@ -77,7 +79,7 @@ just run in terminal
 
 ## Generate splash screen and icon for android
 
-- get splash screen and icons from [React Native](https://apetools.webprofusion.com/app/#/tools/imagegorilla)
+- get splash screen and icons from [here](https://apetools.webprofusion.com/app/#/tools/imagegorilla)
 - First copy and paste the following directories from the Android directory from Image Gorilla to the android/app/src/main/res directory.
 ```
 drawable-hdpi
@@ -87,16 +89,27 @@ drawable-xxhdpi
 ```
 
 - Open the project in Android Studio and in the android/app/src/main/res create a drawable directory, then create a new “Drawable resource file”. Name that file background_splash and edit as given below.
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/1.png)
+![alt image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/1.png)
 - Edit android/app/res/values/styles.xml as given below
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/2.png)
+![alt image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/2.png)
 - Edit AndroidManifest.xml as given below
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/3.png)
+![alt image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/3.png)
 - Create new java file and edit as given below
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/4.png)
+![alt image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/4.png)
 
 Now run your application with your desired icon and splash screen.
 
+## Generate splash screen and icon for ios
+
+- Generate ios splash screen and icon images.
+- Navigate to the ios folder in your project, then open the .xcodeproj file within it using Xcode.
+- Then scroll down to “Launch Images Source” and click “Use Asset Catalog…” and press “Migrate” when prompted, and edit App Icon and Launch Images as given below.
+![alt image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/5.png)
+- Delete LaunchScreen.xib file under your app folder in xcode
+- Within the “Images.xcassets” folder there is now a “LaunchImage” option inside of it. This is where we’ll drag and drop the iOS splash screen images
+- Within the “Images.xcassets” folder there is now a “AppIcon” option inside of it. This is where we’ll drag and drop the iOS icon images
+
+Now run your application with your desired icon and splash screen.
 
 ## For more information and help visit
 
