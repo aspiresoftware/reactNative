@@ -1,7 +1,3 @@
 {
-  "presets": [
-    "react-native-stage-0",
-    "react-native"
-  ],
-  "plugins": ["react-hot-loader/babel"]
+  "presets": ["react-native"]
 }
