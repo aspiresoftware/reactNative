@@ -1,11 +1,7 @@
 # reactNative
-Project for all platform (Web, Android, iOS and Desktop(Mac., Linux, and Windows))
+Project for Mobile platform (Android, iOS)
 
 A way to share application logic between a React Web app, React Desktop app and a React Native app with a single set of code.The app itself is a very simple with a button and input field, but the real logic is, how to use the same code to build an application for web, android, ios and desktop at the same time.
-
--react-native-web with webpack is used for building web specific app
--electron with webpack is used for building desktop specific app
--electron packeger for generating distributable desktop file
 
 ## Directory structure:
 
@@ -50,18 +46,6 @@ just run in terminal
 
 - [generating build release for ios](https://facebook.github.io/react-native/docs/running-on-device.html)
 
-### For web
-- `yarn run run-web` your app is accessible at `http://localhost:3000`
-- `yarn run prod-web` --> for production build
-
-### For desktop
-`yarn run run-desktop` (Linux, windows, and mac os)
-
-### Building distributable package for desktop
-- `yarn run pack-linux` -> to get ditributable package for linux
-- `yarn run pack-windows` -> to get ditributable package for windows
-- `yarn run pack-mac` -> to get ditributable package for mac
-
 ## Screen shots
 
 ### Android
@@ -69,13 +53,6 @@ just run in terminal
 
 ### IOS
 ![alt ios image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/ios.png)
-
-### Web
-![alt web image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/web.png)
-
-### Desktop
-![alt desktop image not found](https://raw.githubusercontent.com/aspiresoftware/reactNative/master/readmeIMG/desktop.png)
-
 
 ## Generate splash screen and icon for android
 
@@ -116,5 +93,3 @@ Now run your application with your desired icon and splash screen.
 - [React Native](https://facebook.github.io/react-native/)
 - [React Native Web](https://github.com/necolas/react-native-web)
 - [React Native Troubleshooting](https://facebook.github.io/react-native/docs/troubleshooting.html)
-- [Electron](https://electronjs.org/)
-- [Electron Packeger](https://www.npmjs.com/package/electron-packager)
