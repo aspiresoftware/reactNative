@@ -12,6 +12,7 @@ import ReadMe from "../../view/readme/ReadMe";
 import WebView from "../../view/webview/Webview";
 import Notification from "../../view/notification/Notification";
 import Login from "../../view/login/Login";
+import Ad from "../../view/ad/Ad";
 import Splash from "../../components/splash";
 
 // Side Nav
@@ -30,7 +31,8 @@ const DrawerStack = DrawerNavigator(
     Notification: { screen: Notification },
     Contact: { screen: Contact },
     About: { screen: About },
-    ReadMe: { screen: ReadMe }
+    ReadMe: { screen: ReadMe },
+    Ad: { screen: Ad }
   },
   {
     contentComponent: Sidenav,
@@ -90,9 +92,6 @@ export default class Route extends Component {
     } else {
       analytic.setCurrentScreen(action.routeName);
     }
-    console.log('Previous state: ', prevState);
-    console.log('New state: ', newState);
-    console.log('Action: ', action);
   }
 
   render() {

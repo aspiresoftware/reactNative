@@ -103,6 +103,19 @@ export default function (props, state) {
 
           <TouchableOpacity
             style={styles.navSectionStyle}
+            onPress={this.navigateToScreen("Ad")}
+          >
+            <View style={styles.iconCotainer}>
+              <Icon name="local-play" style={styles.icon} />
+            </View>
+
+            <View style={styles.textContainer}>
+              <Text style={styles.navItemStyle}>AdMob</Text>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.navSectionStyle}
             onPress={this.logOut}
           >
             <View style={styles.iconCotainer}>
